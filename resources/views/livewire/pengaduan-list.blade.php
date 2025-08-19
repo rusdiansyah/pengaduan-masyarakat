@@ -70,11 +70,11 @@
                                 @endif
                             </td>
                             <td>
-                                <a href="/pengaduan/pengaduanEdit/{{ $item->id }}" class="btn btn-sm btn-success">
+                                <a href="/pengaduan/pengaduanEdit/{{ $item->id }}" class="btn btn-sm btn-success" title="Edit">
                                     <i class="fas fa-edit"></i>
                                 </a>
                                 <a href="/pengaduan/pengaduanTanggapan/{{ $item->id }}"
-                                    class="btn btn-sm btn-info">
+                                    class="btn btn-sm btn-info" title="Tanggapan">
                                     <i class="fas fa-book"></i>
                                 </a>
                                 <x-button-delete id="{{ $item->id }}" />
