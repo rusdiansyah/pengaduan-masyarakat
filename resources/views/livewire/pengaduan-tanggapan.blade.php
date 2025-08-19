@@ -40,7 +40,7 @@
                         <tr>
                             <td>{{ $loop->iteration }}</td>
                             <td>
-                                <a href="{{ asset($itemBukti->bukti) }}" class="btn btn-sm btn-success" target="_blank">
+                                <a href="{{ asset('storage/'.$itemBukti->bukti) }}" class="btn btn-sm btn-success" target="_blank">
                                     <i class="fa fa-eye"></i> Lihat
                                 </a>
                             </td>

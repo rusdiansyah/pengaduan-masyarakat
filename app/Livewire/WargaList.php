@@ -189,7 +189,6 @@ class WargaList extends Component
             $user->role_id = 2;
             $user->password = Hash::make('password');
             $user->save();
-
         }
         Warga::updateOrCreate(['id' => $this->id], [
             'nik' => $this->nik,
